@@ -24,3 +24,15 @@
    .intro_page h1 span {
     color: lightseagreen;
   }
+
+  .intro_page p {
+    font-size: 1rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 1.6;
+    color: #333;}
+    .reviews h2, .arrivals h2, .featured_book h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+  }
