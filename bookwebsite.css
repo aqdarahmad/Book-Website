@@ -13,3 +13,14 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+   .intro_page {
+    flex: 1 1 50%;
+    padding: 2em;
+  }
+   .intro_page h1 {
+    font-size: 2.5rem;
+    color: black;
+  }
+   .intro_page h1 span {
+    color: lightseagreen;
+  }
