@@ -36,3 +36,30 @@
     font-size: 2.5rem;
     color: black;
   }
+
+
+   .about, header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+  }
+    .about .about_img, .intro_img {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em;
+  }
+
+  .about .about_img img, .intro_img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
