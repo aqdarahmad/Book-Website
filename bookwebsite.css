@@ -399,3 +399,32 @@ button.learn_more {
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
   }
+
+  .reviews .r1:hover, .reviews .r2:hover, .reviews .r3:hover, .reviews .r4:hover {
+    transform: translateY(-5px);
+  }
+  
+  .reviews img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .reviews h2{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .reviews p {
+    font-size: 14px;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .reviews .stars {
+    color: #0097a7;
+    font-size: 14px;
+  }
