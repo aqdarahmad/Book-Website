@@ -472,3 +472,40 @@ button.learn_more {
     font-size: 16px;
     cursor: pointer;
   }
+   .reviews > div:last-child button:hover {
+    background-color: #007c91;
+  }
+
+  .reviews-banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  
+  
+  .reviews-banner-container img {
+    width: 100%;
+    display: block;
+    border-radius: 0;
+  }
+  
+  .reviews-banner-container button {
+    position: absolute;
+    top: 65%;
+    left: 100px;
+    transform: translateY(-50%);
+    background-color: #0097a7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+   
+  }
+  
+  
+  .reviews-banner-container button:hover {
+    background-color: #007c91;
+  }
