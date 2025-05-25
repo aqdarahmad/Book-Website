@@ -374,3 +374,28 @@ button.learn_more {
     border: 1px solid #089da1;
     box-shadow: 0 0 0.5em #089da1;
   }
+
+  /* .reviews */
+.reviews {
+    padding: 60px 40px;
+    background-color: #fff;
+  }
+  
+  .reviews > div:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .reviews .r1, .reviews .r2, .reviews .r3, .reviews .r4 {
+    background-color: #fff;
+    border: 1px solid #bde3e6;
+    padding: 20px;
+    width: 250px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+  }
